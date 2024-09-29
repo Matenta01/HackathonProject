@@ -1,0 +1,99 @@
+
+    body {
+      font-family: "Lato", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    
+    .sidebar {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      overflow-x: hidden;
+      padding-top: 16px;
+    }
+    
+    .sidebar a {
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    
+    .sidebar a:hover {
+      background-color: #555;
+    }
+    
+    .main {
+      margin-left: 160px;
+      padding: 20px;
+    }
+    
+    .main h2 {
+      margin-bottom: 20px;
+    }
+    
+    .panel {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    #rcorners1,
+    #rcorners2 {
+      border-radius: 25px;
+      border: 2px solid #000000;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+
+    #rcorners1 {
+      width: 200px;
+      height: 17px;
+    }
+
+    #rcorners2 {
+      width: 1000px;
+      height: 150px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidebar { padding-top: 15px; }
+      .sidebar a { font-size: 16px; }
+    }

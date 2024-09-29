@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da7d5b03.css",
+    "main.js": "/static/js/main.f4f7b731.js",
+    "static/js/453.af4227df.chunk.js": "/static/js/453.af4227df.chunk.js",
+    "static/media/University of Surrey logo.png": "/static/media/University of Surrey logo.d9ae3f515215461bf7dc.png",
+    "static/media/official logo.png": "/static/media/official logo.d0b657b3a3beb942ad7a.png",
+    "static/media/pexels-andy-barbour-6684373.jpg": "/static/media/pexels-andy-barbour-6684373.b4ae0bd417f89f19184a.jpg",
+    "index.html": "/index.html",
+    "main.da7d5b03.css.map": "/static/css/main.da7d5b03.css.map",
+    "main.f4f7b731.js.map": "/static/js/main.f4f7b731.js.map",
+    "453.af4227df.chunk.js.map": "/static/js/453.af4227df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da7d5b03.css",
+    "static/js/main.f4f7b731.js"
+  ]
+}
